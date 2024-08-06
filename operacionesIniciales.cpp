@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void operacionesIniciales(){
+extern "C" __declspec(dllexport) void operacionesIniciales(){
   //menu bienvenida
   //explicacion funcionamiento
   //cargar controladores
